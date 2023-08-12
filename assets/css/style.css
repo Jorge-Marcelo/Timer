@@ -1,8 +1,15 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 12/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
 /*Google Fonts*/
 /*Roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
-
-
 
 
 /*Configurações padrão*/
@@ -55,7 +62,7 @@ margin: 10px;
 width: 170px;
 }
 
-
+/*Container do timer*/
 span{
 color: rgb(0, 0, 0);
 }
@@ -67,7 +74,6 @@ font-size: 1.7em;
 font-weight: 900;
 }
 
-
 h2{
 color: rgb(0, 38, 255);
 font-size: 1.3em;
@@ -75,6 +81,7 @@ font-weight: 900;
 margin: 5px;
 }
 
+/*Classes dos botões de ação do timer*/
 .play{
 background: transparent;
 border: 2px solid rgb(255, 255, 255);
@@ -84,7 +91,6 @@ background-color: rgb(21, 163, 2);
 .play:hover{
 background-color: rgb(96, 106, 248);
 }
-
 
 .pause{
 background: transparent;
@@ -117,6 +123,7 @@ margin-top: 20px;
 margin-bottom: 10px;
 }
 
+/*Botões*/
 button{
 margin: 0 7px;
 width: 50px; 
@@ -124,8 +131,6 @@ height: 50px;
 border-radius: 100%;
 cursor: pointer;
 }
-
-
 
 /*Animação do botão das redes sociais*/
 @keyframes button{
@@ -137,6 +142,7 @@ transform: translateY(-20px);
 }
 }
 
+/*Classes de redes sociais*/
 .social{
 background: transparent;
 border: 2px solid rgb(12, 2, 145);
@@ -150,6 +156,7 @@ border: 2px solid rgb(255, 255, 255);
 animation: button 0.3s ease-in-out forwards;
 }
 
+/*Animação de efeito de fade*/
 .efect
 {
 display: flex;
